@@ -6,6 +6,7 @@ export default function Router() {
     <Switch>
       <Route path='/' element={<div>Home</div>} />
       <Route path='/event' element={<Event />} />
+      <Route path='/event/lesson/:slug' element={<Event />} />
     </Switch>
   );
 }
